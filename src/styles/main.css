@@ -1,2 +1,16 @@
 @import "variables.css";
 @import "base.css";
+@import "./components/button.css";
+@import "./components/header.css";
+@import "./components/stats.css";
+
+@media (max-width: 520px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .stats {
+    padding: var(--space-sm) var(--space-md);
+    gap: var(--space-lg);
+  }
+}
