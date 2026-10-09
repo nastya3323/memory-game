@@ -25,6 +25,7 @@ export default function card({ icon, onClick }) {
     buildElement("img", {
       src: `/icons/${icon}`,
       alt: "",
+      draggable: "false",
     })
   );
 
