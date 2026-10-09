@@ -3,10 +3,16 @@
 @import "./components/button.css";
 @import "./components/header.css";
 @import "./components/stats.css";
+@import "./components/board.css";
+@import "./components/card.css";
 
 @media (max-width: 520px) {
   .header {
     flex-direction: column;
+  }
+
+  .board {
+    gap: var(--space-sm);
   }
 
   .stats {
