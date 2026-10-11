@@ -20,4 +20,8 @@
     padding: var(--space-sm) var(--space-md);
     gap: var(--space-lg);
   }
+
+  .modal__content {
+    padding: var(--space-lg);
+  }
 }
