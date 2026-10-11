@@ -8,3 +8,5 @@ export const icons = [
   "trophy.png",
   "volleyball.png",
 ];
+
+export const PAIRS_TOTAL = icons.length;
