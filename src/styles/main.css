@@ -6,6 +6,7 @@
 @import "./components/board.css";
 @import "./components/card.css";
 @import "./components/modal.css";
+@import "./components/leaderboard.css";
 
 @media (max-width: 520px) {
   .header {
