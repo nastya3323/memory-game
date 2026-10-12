@@ -23,7 +23,7 @@ export default function card({ icon, onClick }) {
 
   faceFront.append(
     buildElement("img", {
-      src: `/icons/${icon}`,
+      src: `${import.meta.env.BASE_URL}icons/${icon}`,
       alt: "",
       draggable: "false",
     })
